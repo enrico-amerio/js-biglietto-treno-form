@@ -19,16 +19,16 @@
             <input type="text" class="form-control" id="fullName" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-            <label for="distance" class="form-label">Km da percorrere</label>
-            <input type="text" class="form-control" id="distance">
+            <label for="km" class="form-label">Km da percorrere</label>
+            <input type="number" class="form-control distance" id="km">
           </div>
           <label for="age" class="form-label">Fascia d'età</label>
           <select class="mb-3 form-select" id="age" >
-            <option value="1">Bambino(0-17)</option>
-            <option selected value="2">Adulto(18-64)</option>
-            <option value="3">Over 65</option>
+            <option value="young">Bambino(0-17)</option>
+            <option selected value="adult">Adulto(18-64)</option>
+            <option value="senior">Over 65</option>
           </select>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn1 btn btn-primary">Submit</button>
           <button type="reset" class="btn btn-primary">Reset</button>
         </form>
       </div>
