@@ -25,6 +25,7 @@ console.log(risultato)
 
 
 btn1.addEventListener('click',function(event){
-  event.submit();
- 
+  event.preventDefault();
+  console.log(fullName.value, distance.value, ageRange.value)
 })
+
