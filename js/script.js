@@ -51,7 +51,7 @@ btn1.addEventListener('click', function(){
   
      `;
   }
-  myTicket.classList.toggle('d-none');
+  myTicket.classList.remove('d-none');
 })
 
 resetBtn.addEventListener('click', function(){
