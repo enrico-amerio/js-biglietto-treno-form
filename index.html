@@ -9,9 +9,38 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <main>
+    <div class="container">
+      <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+      <div>
+        <form>
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Nome e Cognome</label>
+            <input type="text" class="form-control" id="fullName" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="distance" class="form-label">Km da percorrere</label>
+            <input type="text" class="form-control" id="distance">
+          </div>
+          <label for="age" class="form-label">Fascia d'età</label>
+          <select class="mb-3 form-select" id="age" >
+            <option value="1">Bambino(0-17)</option>
+            <option selected value="2">Adulto(18-64)</option>
+            <option value="3">Over 65</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+        </form>
+      </div>
+      <h2>IL TUO BIGLIETTO</h2>
+      <div>
+       <div id="output"></div> 
+      </div>
 
-  
+    </div>
+  </main>
+
+
   <script src="js/script.js"></script>
 </body>
 </html>
